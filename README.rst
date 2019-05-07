@@ -24,7 +24,7 @@ reviewing and selection of submissions, and the scheduling and release
 handling. After the event, `pretalx` allows speakers to receive feedback,
 upload their slides, and organisers to embed recordings.
 
-Read our extensive `feature list`_ in our docs to get a better idea of what
+Read our `feature list`_ in our main site to get a better idea of what
 `pretalx` can do for you, but it probably involves everything you'll need to
 curate submissions and contents for a conference with up to 200 talks.
 
@@ -55,6 +55,7 @@ Previous conferences using pretalx include:
 - `MRMCD`_ (2017, 2018)
 - `Tools4AgileTeams`_ (2019)
 - `Camp++ 2019`_
+- `Klimacamp Leipziger Land`_ & `Degrowth Summerschool`_ (2019) 
 
 Note
   If you use pretalx for your event, please tell us about it!
@@ -87,7 +88,7 @@ to this project.
    :alt: pretalx logo
    :target: https://pretalx.com
 .. _issues: https://github.com/pretalx/pretalx/issues/
-.. _feature list: https://pretalx.readthedocs.io/en/latest/features.html
+.. _feature list: https://pretalx.com/p/features
 .. _developer documentation: https://pretalx.readthedocs.io/en/latest/developer/index.html
 .. _administrator documentation: https://pretalx.readthedocs.io/en/latest/administrator/index.html
 .. _pretalx.com: https://pretalx.com/
@@ -111,3 +112,5 @@ to this project.
 .. _Journées du Logiciel Libre 2019: https://pretalx.jdll.org/jdll2019/cfp
 .. _Tools4AgileTeams: https://talks.seibert-media.net/tools4agileteams2019/
 .. _Camp++ 2019: https://camp.hsbp.org/2019/pp7e3/
+.. _Klimacamp Leipziger Land: https://event.klimacamp-leipzigerland.de/2019/cfp
+.. _Degrowth Summerschool: https://summerschool.degrowth.info/sc2019/cfp

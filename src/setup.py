@@ -16,7 +16,7 @@ if CURRENT_PYTHON < REQUIRED_PYTHON:
 ==========================
 Unsupported Python version
 ==========================
-This version of pretix requires Python {}.{}, but you're trying to
+This version of pretalx requires Python {}.{}, but you're trying to
 install it on Python {}.{}.
 This may be because you are using a version of pip that doesn't
 understand the python_requires classifier. Make sure you
@@ -86,7 +86,7 @@ setup(
         'celery==4.3.*',  # search for "what's new" on http://docs.celeryproject.org/en/latest/
         'csscompressor==0.9.*',  # 2017-11, no changelog, https://github.com/sprymix/csscompressor
         'cssutils==1.0.*',  # https://pythonhosted.org/cssutils/CHANGELOG.html
-        'Django>=2.2.0,<2.3.0',  # https://docs.djangoproject.com/en/2.0/releases/
+        'Django>=2.2.1,<2.3.0',  # https://docs.djangoproject.com/en/2.0/releases/
         'django-bakery==0.12.*',  # http://django-bakery.readthedocs.io/en/latest/changelog.html
         'django-bootstrap4==0.0.8',  # http://django-bootstrap4.readthedocs.io/en/latest/history.html
         'django-compressor==2.2.*',  # https://django-compressor.readthedocs.io/en/latest/changelog/

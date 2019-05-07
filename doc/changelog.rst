@@ -3,6 +3,9 @@
 Release Notes
 =============
 
+- :bug:`689` In the (undocumented) review API, reviews of deleted submissions were shown, even though those submissions were not available anymore via the frontend.
+- :bug:`688` pretalx was inconstent in its usage of email senders and reply-tos. Now, if there is a sender address configured, the reply-to is not explicitly set. pretalx falls back to the instance-global sender if there is no event sender address. A reply-to setting is available if the organisers wish to provide a separate address there.
+- :feature:`682` The submission endpoint now provides a ``created`` field to organiser users.
 - :feature:`326` During event creation, pretalx provides more critical feedback, such as asking if the event is supposed to take place in the past, or suggesting good slugs.
 - :feature:`393` As an alternative to file uploads, organisers can now also provide their custom CSS directly as text.
 - :feature:`360` Within the review dashboard, organisers can now accept and reject multiple submissions at the same time.

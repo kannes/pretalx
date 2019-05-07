@@ -236,6 +236,11 @@ class MailSettingsForm(ReadOnlyFlag, I18nFormMixin, HierarkeyForm):
         help_text=_('Sender address for outgoing emails.'),
         required=False,
     )
+    mail_reply_to = forms.EmailField(
+        label=_('Contact address'),
+        help_text=_('Reply-To address. If this setting is empty and you have no custom sender, your event email address will be used as Reply-To.'),
+        required=False,
+    )
     mail_subject_prefix = forms.CharField(
         label=_('Mail subject prefix'),
         help_text=_(
@@ -286,7 +291,7 @@ class MailSettingsForm(ReadOnlyFlag, I18nFormMixin, HierarkeyForm):
             self.fields['mail_from'].widget.attrs['placeholder'] = event.email
             self.fields['mail_from'].help_text += ' ' + _(
                 'Leave empty to use the default address: {}'
-            ).format(event.email)
+            ).format(settings.MAIL_FROM)
 
     def clean(self):
         data = self.cleaned_data
